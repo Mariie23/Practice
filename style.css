@@ -1,6 +1,5 @@
 body {
 background: #f9e933;
-8
 }
 header, main, footer {
 min-width: 855px;
@@ -23,5 +22,14 @@ width: 285px;
 }
 main {
 background: white;
+overflow: auto;
+}
+main .left{
+float: left;
+width: 570px;
+}
+main .right{
+float: right;
+width: 285px;
 }
 
